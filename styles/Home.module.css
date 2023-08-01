@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Video {
+  display: flex;
+  background-color: aqua;
+  object-fit: cover;
+}
+
+.endbody {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  
+}
+
+.imgcontainer{
+  padding-top: 1%;
+  padding-left: 8%;
+}
+
+.endlogo {
+  display: flex;
+  width: 4vw;
+  
+}
+
+.endtext{
+  color: white;
+  padding-top: 2%;
+  padding-right: 5%;
+}
+

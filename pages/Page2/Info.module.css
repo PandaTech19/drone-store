@@ -1,0 +1,136 @@
+.Container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #1E1C1F;
+    margin-top: -7%;
+}
+
+.carcontainer {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.change {
+    transition: ease-in-out 0.8s;
+}
+
+.slider {
+    width: 100%;
+    height: 700px;
+  
+}
+
+
+.h1 {
+    color: white;
+    display: flex;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-left: 11%;
+}
+
+.imgcontainer {
+    display: flex;
+    padding-top: 5%;
+}
+
+.img {
+    width: 50vw;
+    height: 25vw;
+}
+
+.list {
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    padding-top: 2%;
+}
+
+.listcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11.5%;
+    padding-top: 5%;
+}
+
+.paragraph {
+    color: bisque;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: 9%;
+}
+
+
+.endbody {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    background-color: black;
+    
+}
+
+.imgcontainer{
+    
+    padding-left: 8%;
+}
+
+.endlogo {
+    display: flex;
+    width: 4vw;
+    
+}
+
+.endtext{
+    color: white;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+@media(max-width:1200px) {
+
+
+    .carcontainer {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .slider {
+        max-width: 100vw;
+        height: 300px;
+    }
+    
+
+   .h1 {
+        display: flex;
+        font-size: 6vw;
+        padding-right: 5%;
+        
+    }
+
+    .imgcontainer {
+        padding-top: 5%;
+    }
+     .img {
+        width: 80%;
+        height: 20%;
+    }
+
+    .list{
+        font-size:6vw;
+        padding-top: 5%;
+    }
+
+    /*.paragraph {
+        font-size: large;
+    }*/
+}

@@ -1,0 +1,144 @@
+.Navbar-container {
+    z-index: 3;
+    position: static;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+
+}
+
+.log {
+    display: flex;
+    width: 4vw;
+    margin-left: 10vw;
+}
+
+.Navbar {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    
+    
+}
+
+.b {
+    display: inline-block;
+    font-size: 1.5vw;
+    padding-top: 1%;
+    padding-left: 1%;
+    color: white;
+    font-family: poppins;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    
+}
+
+.b::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+
+.b:hover::after {
+    width: 100%;
+}
+
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left :14%;
+    
+    
+}
+
+.input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+    padding-right: 40px;
+    color: #fff;
+}
+
+.input-search::placeholder {
+    color: aliceblue;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 1.8vw;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:hover~.input-search {
+    width: 250px;
+    border-radius: 5vw;
+    background: rgba(0, 0, 0, 0.404);
+    border-bottom: 3px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:hover {
+    width: 250px;
+    border-radius: 5vw;
+    background: rgba(0, 0, 0, 0.404);
+    border-bottom: 3px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+@media(max-width:1200px) {
+    .Navbar-container {
+        z-index: 4;
+        position: absolute;
+    }
+    .log {
+        width: 15vw;
+    }
+    .toggle-btn {
+        display: flex;
+        position: static;
+        background: white !important;
+        font-size: 5vw;
+    }
+    .collapse {
+        background: rgba(0, 0, 0, 0.61);
+        padding-left: 8%;
+        line-height: 8vw;
+    }
+    .b {
+        font-size: 5vw;
+        width: 0;
+        margin: 0;
+        color: whitesmoke;
+    }
+    .search-box {
+        margin-left: 0;
+    }
+    .search-icon {
+        font-size: 8vw;
+    }
+}

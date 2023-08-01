@@ -1,0 +1,171 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.about {
+    display: flex;
+}
+
+.ad {
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 2%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    padding-left: 11%;
+    animation: fadein 6s;
+    text-shadow: 3px 3px 3px #4D3545;
+}
+
+.cardholder {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.cardcontainer:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.cardcontainer {
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    background-position: center;
+    object-fit: cover;
+    transform: scale(1);
+    width: 25vw;
+    height: 30vw;
+    border-radius: 5%;
+}
+
+.h1 {
+    font-size: 2vw;
+    color: white;
+    font-weight: bolder;
+    margin-top: 1vw;
+}
+
+.con {
+    border-top: none;
+    background: #1E1C1F;
+}
+
+.paragraph {
+    padding-top: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.img {
+    width: 50vw;
+    height: 25vw;
+}
+
+.listcontainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.list {
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    padding-top: 5%;
+}
+
+.paragraph2 {
+    color: bisque;
+    font-size: 20px;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.learn {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.learn:hover {
+    font-weight: bolder;
+    color: white;
+}
+
+.divlearn {
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+@media(max-width:1200px) {
+    .cardholder {
+        flex-direction: column;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        margin-top: 5vw;
+    }
+    .cardcontainer {
+        width: 70vw;
+        height: 70vw;
+    }
+    .h1 {
+        font-size: 6vw;
+        font-weight: bolder;
+        
+    }
+    .list {
+        font-weight: bolder;
+        font-size: 5vw;
+        display: flex;
+        margin-top: 5vw;
+    }
+    .paragraph {
+        margin-top: 2vw;
+        font-size: 4vw;
+    }
+
+    .learn{
+
+        font-size: 4vw;
+    }
+
+
+    .ad {
+        display: flex;
+        font-size: 9vw;
+    }
+    .imgcontainer {
+        margin-top: 5vw;
+    }
+    .img {
+        width: 70vw;
+        height: 40vw;
+    }
+    .paragraph2 {
+        font-size: 4vw;
+    }
+
+    .modalhead{
+
+        font-size: 4vw;
+    }
+
+}
